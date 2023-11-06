@@ -32,7 +32,7 @@ const cardContainer = document.querySelector(".card-container");
 
 searchBtn.addEventListener("click", () => {
   const linkIn = linkInput.value;
-  window.open(linkIn);
+  window.open(linkIn, "", "width=320 height=482");
 });
 
 devices.forEach((device) => {
