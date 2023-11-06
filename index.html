@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Device Friendly Check</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-header overflow-x-hidden border-bottom border-secondary">
+      <nav
+        class="d-flex justify-content-between align-items-center vw-100 border-bottom p-0 border-secondary"
+      >
+        <ul
+          class="nav-list text-light list-unstyled d-flex justify-content-evenly order-last w-25 mt-4"
+        >
+          <li class="nav-link">Home</li>
+          <li class="nav-link">About</li>
+          <li class="nav-link">Contact</li>
+        </ul>
+        <img
+          id="logo"
+          class="img-fluid mx-5"
+          src="./assets/images/icons8-device-100.png"
+        />
+      </nav>
+      <div
+        class="container d-flex flex-column align-items-center justify-content-evenly mt-5 py-5"
+      >
+        <h1 class="text-center text-light main-text">
+          Is Your Website Device Friendly ?
+        </h1>
+        <div class="container-fluid mt-3 w-50">
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 search-bar shadow"
+              type="search"
+              placeholder="Website Link"
+              aria-label="Search"
+            />
+            <button class="btn btn-primary search-btn shadow">Check</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <section
+      id="device-section"
+      class="w-100 vw-100 overflow-hidden d-flex justify-content-center flex-column"
+    >
+      <div class="container d-flex flex-column">
+        <h1 class="text-center fw-bold text-light mt-5 py-4">
+          Check for specific Devices
+        </h1>
+      </div>
+      <div
+        class="m-0 d-flex align-items-center justify-content-evenly flex-wrap p-5 card-container gap-4"
+      ></div>
+    </section>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

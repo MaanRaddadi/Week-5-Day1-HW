@@ -1,0 +1,53 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.main-header {
+  background-image: url(./assets/images/tp238-background-03.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 73vh;
+  width: 100vw;
+}
+#logo {
+  width: 60px;
+  margin-top: 10px;
+}
+.nav-list {
+  font-weight: 600;
+}
+.main-text {
+  font-weight: 800;
+}
+.search-bar {
+  background-color: #1e293b;
+  border: none;
+}
+.search-bar::placeholder {
+  color: rgb(139, 139, 139);
+}
+.search-btn {
+  background-color: #0ea5e9;
+  color: white;
+  font-weight: 600;
+}
+#device-section {
+  background-color: #0f172a;
+}
+
+.card {
+  background-color: #1e293b;
+  min-width: 18rem !important;
+}
+.btn {
+  background-color: #0ea5e9;
+  font-weight: 600;
+}
+
+.card-img {
+  width: 60%;
+  min-height: 183px;
+  object-fit: contain;
+}
