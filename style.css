@@ -51,3 +51,10 @@ body {
   min-height: 183px;
   object-fit: contain;
 }
+
+footer {
+  background-color: #15213b;
+  height: 15vh;
+  color: white;
+  width: 100vw;
+}
